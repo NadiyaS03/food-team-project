@@ -30,3 +30,47 @@ button {
   padding: 0 16px;
   margin: 0 auto;
 }
+
+/*  faforite-Vlad */
+.main-section-four {
+  background: #ffe550;
+}
+.main-reviews {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+}
+.main-reviews-paragraph {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-reviews-item {
+  border-radius: 0px 30px 30px 30px;
+  background: var(--White, #fefefe);
+}
+.main-reviews-item-paragraph {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+.main-reviews-item-name {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.main-reviews-item-text {
+  color: #2c2c2c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
