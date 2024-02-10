@@ -1,31 +1,35 @@
 .favorites {
-  background: #fefefe;
+  padding: 120px 0 100px 0;
 }
 
+
 .favorites-title {
-  color: #2c2c2c;
+  margin-bottom: 16px;
   text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  line-height: normal;
+
 }
 
 .favorites-text {
-  color: #2c2c2c;
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
-  line-height: normal;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .favorites-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+
 }
 
-.favorites-list-item {
-}
-
-.favorites-item-img {
-  border-radius: 197.5px;
+.favorites-item {
   border: 16px solid #ffe550;
-  background-color: #fefefe;
+  border-radius: 197px;
+  width: calc((100% - 64px) / 3);
+  height: 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
