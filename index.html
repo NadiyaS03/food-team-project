@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/offering.css" />
-    <link rel="stylesheet" href="./css/favorite.css" />
-    <link rel="stylesheet" href="./css/customers.css" />
-    <link rel="stylesheet" href="./css/subscribe.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/modal.css" />
-  </head>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/hero.css" />
+  <link rel="stylesheet" href="./css/offering.css" />
+  <link rel="stylesheet" href="./css/favorite.css" />
+  <link rel="stylesheet" href="./css/customers.css" />
+  <link rel="stylesheet" href="./css/subscribe.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/modal.css" />
+</head>
   <body>
     <!-------HEADER Anna M------->
     <header>
@@ -59,16 +53,21 @@
     </header>
     <main>
       <!----------- HERO Anna Sh---------->
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
-          With just a few clicks, you can have your favorite meals delivered straight to your
-          doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal
-          from the comfort of your own home.
-        </p>
-        <button type="button">Order Now</button
-        ><img src="./images/hero.png" alt="salat" width="528" height="528" />
-      </section>
+     <section class=" hero">
+      <div class="container hero-container">
+        <div class="hero-blok ">
+          <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero-text">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
+          <button class="hero-btn" type="button">Order Now</button>
+        </div>
+        <img class="hero-img" src="./images/hero.png" alt="salat" width="528" height="528" />
+      </div>
+    </section>
       <!--------OFFERINGS Inesa---------->
       <section class="offerings">
         <img class="offerings-img" src="./images/apple.png" alt="apple" width="396" height="502" />
@@ -229,3 +228,4 @@
     </footer>
   </body>
 </html>
+
