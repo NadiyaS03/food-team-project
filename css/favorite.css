@@ -1,0 +1,31 @@
+.favorites {
+  background: #fefefe;
+}
+
+.favorites-title {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.favorites-text {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.favorites-list {
+}
+
+.favorites-list-item {
+}
+
+.favorites-item-img {
+  border-radius: 197.5px;
+  border: 16px solid #ffe550;
+  background-color: #fefefe;
+}
