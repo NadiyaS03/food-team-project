@@ -1,12 +1,29 @@
 .footer {
+  padding-top: 118px;
+  padding-bottom: 100px;
 }
-
-.logo {
+.footer-nav-wrap {
+  display: flex;
+  align-items: center;
+}
+.logo-footer {
+  margin-right: 143px;
 }
 
 .footer-nav {
+  display: flex;
+  gap: 28px;
 }
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
 
+  margin-bottom: 80px;
+}
+.footer-privacy-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 .footer-nav-item {
 }
 
@@ -18,6 +35,8 @@
 }
 
 .footer-list {
+  display: flex;
+  flex: 1 0 auto;
 }
 
 .footer-list-item {
@@ -36,6 +55,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 150%; /* 21px */
+  margin: 100px 70px 8px 0;
 }
 .subscribe-form {
 }
